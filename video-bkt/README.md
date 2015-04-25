@@ -3,8 +3,7 @@
 
 **HOW TO USE**:
 
-**Analysis**:
-In order to be used with analysis, data must be reformatted into a simple csv file with the following format
+In order to be used for analysis, data must be reformatted into a simple csv file with the following format:
 
 **Student #, KC #, KC subpart #, KC subsubpart #, Correctness, timeSinceLastAction, timeSpent**
 

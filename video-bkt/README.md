@@ -25,7 +25,9 @@ timeSpent:Currently unused, must be integer
 
 **Running the Code**:
 In order to run the code with data in the format described above, edit the analysis/parseAllData.m matlab script
+
 Change line 7 to indicate the location of your file
+
 Then, run the parseAllData script
 
 After running, a number of results objects will have been generated, for the 'Template-Videos', 'StandardBKT', and 'Template-1-video' Conditions.  These are, respectively, withResourceResults, noResourceResults, and oneResourceResults, which include information about RMSE and model details

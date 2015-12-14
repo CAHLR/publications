@@ -1,4 +1,6 @@
 function heatmap(result_data,d,title_ll,title_rmse,title_auc,title_prec,title_recall,title_accur,guess,slip)
+colormap jet
+
 orgmap = colormap;
 newmap = colormap;
 newmap(1,:) = [0,0,0];

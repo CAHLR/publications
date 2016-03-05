@@ -1,3 +1,6 @@
+% Zach Pardos (zp@berkeley.edu)
+% Computational Approaches to Human Learning (CAHL) Lab
+
 function [data,users] = prepare_xBKTeyedata(floc,fname,mname,flds)
 if ~exist('flds'), flds=1:5;end
 fname=strrep(fname,'.txt','');

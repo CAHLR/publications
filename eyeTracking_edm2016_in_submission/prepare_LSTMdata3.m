@@ -1,3 +1,6 @@
+% Zach Pardos (zp@berkeley.edu)
+% Computational Approaches to Human Learning (CAHL) Lab
+
 function [data, resp, users, maxd2, maxf] = prepare_LSTM3(fname,mname,flds)
 if isempty(strfind(path,'xBKT')),addpath(genpath('~/xBKT'));end
 % this file differs from LSTMdata by having a one hot encoding instead of indexed

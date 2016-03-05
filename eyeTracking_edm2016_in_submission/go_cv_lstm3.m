@@ -1,3 +1,6 @@
+% Zach Pardos (zp@berkeley.edu)
+% Computational Approaches to Human Learning (CAHL) Lab
+
 function go_cv_lstm3(floc,fname,lab,mname,gpunum,resume)
 if ~exist('gpunum') fprintf('Usage: floc,fname,lab,mname,gpunum,resume\n');return;end
 if ~exist('resume') resume = 0;end

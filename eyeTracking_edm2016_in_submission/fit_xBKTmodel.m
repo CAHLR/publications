@@ -1,3 +1,6 @@
+% Zach Pardos (zp@berkeley.edu)
+% Computational Approaches to Human Learning (CAHL) Lab
+
 function model = fit_xBKTmodel(data)
 
 iters=40;

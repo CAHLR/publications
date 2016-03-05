@@ -1,3 +1,6 @@
+% Zach Pardos (zp@berkeley.edu)
+% Computational Approaches to Human Learning (CAHL) Lab
+
 function go_cv(floc,fname,mname)
 addpath(genpath('~/xBKT'));
 
